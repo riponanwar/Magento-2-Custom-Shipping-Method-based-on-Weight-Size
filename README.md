@@ -3,10 +3,10 @@
 <p>## Condition</p>
 <p>Shipping charge will be calculated according to product size and weight.</p>
 <ul>
-<li>a. If weight is more than 10 KG and size is less than 100 CM, Shipping Charge will be 100 TK</li>
-<li><br />b. If weight is less than 10 KG and Size is more than 100 CM, Shipping Charge will be 90 TK</li>
-<li><br />c. If weight is more than 10 KG and size is more than 100 CM, shipping charge will be 150 TK.</li>
-<li><br />d. If weight is less than 10 KG and Size is less than 100 CM, Shipping Charge will be 60 TK</li>
+<li>If weight is more than 10 KG and size is less than 100 CM, Shipping Charge will be 100 TK</li>
+<li> If weight is less than 10 KG and Size is more than 100 CM, Shipping Charge will be 90 TK</li>
+<li>If weight is more than 10 KG and size is more than 100 CM, shipping charge will be 150 TK.</li>
+<li>If weight is less than 10 KG and Size is less than 100 CM, Shipping Charge will be 60 TK</li>
 </ul>
 <p>&nbsp;</p>
 <p>## Installation</p>
