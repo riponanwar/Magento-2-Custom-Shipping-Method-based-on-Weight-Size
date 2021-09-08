@@ -1,0 +1,29 @@
+{
+    "name": "zendanwar/shippingmethod",
+    "description": "",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Anwar Hossain",
+            "email": "borntowinaw@gmail.com",
+            "homepage": "https://github.com/riponanwar",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~5.6.0|7.0.2|7.0.4|~7.0.6"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Zendanwar\\ShippingMethod\\": ""
+        }
+    }
+}
