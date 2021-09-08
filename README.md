@@ -3,7 +3,7 @@
 This module provide a custom shipping method on the site.
 
 ## Condition
-
+<>
 Shipping charge will be calculated according to product size and weight.
 a. If weight is more than 10 KG and size is less than 100 CM, Shipping Charge will be 100 TK
 b. If weight is less than 10 KG and Size is more than 100 CM, Shipping Charge will be 90 TK
@@ -14,24 +14,31 @@ d. If weight is less than 10 KG and Size is less than 100 CM, Shipping Charge wi
 
 Custome Size should be attribute code "csize" & type should be "Text field"
 
-
+<br/>
 Copy the content of the repo to the app/code/Zendanwar/ShippingMethod/ folder
-
-Enable module:
+<br/>
+Enable module:<br/>
 ......
-php bin/magento module:enable Zendanwar_ShippingMethod
+<code>php bin/magento module:enable Zendanwar_ShippingMethod</code>
 ........
-
-Disable module: (Optional)
+<br/>
+Disable module: (Optional)<br/>
 ......
-php bin/magento module:disable Zendanwar_ShippingMethod --clear-static-content
+<br/>
+<code>php bin/magento module:disable Zendanwar_ShippingMethod --clear-static-content</code>
+<br/>
 .....
-
+<br/>
 Update system:
+<br/>
 ....
+<br/>
+<code>
 php bin/magento setup:upgrade
 php bin/magento cache:flush
 php bin/magento cache:clean
+</code>
+<br/>
 ....
 
 
