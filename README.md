@@ -1,4 +1,4 @@
-# Magento 2 Custom Shipping Method based on weight & size
+# Magento 2 Custom Shipping Method based on Weight & Size
 <p>This module provide a custom shipping method on the site.</p>
 <p>## Condition</p>
 <p>Shipping charge will be calculated according to product size and weight.</p>
